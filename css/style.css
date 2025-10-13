@@ -79,3 +79,17 @@ section.topo .flex{
     color: white;
     margin: 40px 0;
 }
+
+.topo .img-topo img{
+    position: relative;
+    animation: flutuacao 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuacao {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
