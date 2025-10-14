@@ -36,7 +36,7 @@ h2.titulo{
 h2.titulo span{
     color: rgb(73, 57, 177);
 }
-button:hover{
+button:hover, form .btn-envio input:hover{
     box-shadow: 0px 0px 8px rgb(73, 57, 177);
     transform: scale(1.05);
 }
@@ -213,4 +213,44 @@ section.portfolio .flex{
 }
 .overlay:hover{
     opacity: 1;
+}
+
+/*estiolo formulario*/
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.411);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+form .btn-envio{
+    margin-top: 20px;
+    text-align: center;
+}
+form .btn-envio input{
+    width: 120px;
+    background-color: rgb(31, 20, 102);
+    color: black;
+    cursor: pointer;
+    transition: .2s;
 }
