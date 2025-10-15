@@ -7,8 +7,10 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 body{
-    background-color: black;
-    height: 100vh;
+    background: linear-gradient(black, rgb(29, 19, 90))
+}
+section.portfolio{
+    background: linear-gradient(black)
 }
 .interface{
     max-width: 1280px;
@@ -34,7 +36,7 @@ h2.titulo{
     text-align: center;
 }
 h2.titulo span{
-    color: rgb(73, 57, 177);
+    color: blueviolet;
 }
 button:hover, form .btn-envio input:hover{
     box-shadow: 0px 0px 8px rgb(73, 57, 177);
@@ -127,7 +129,7 @@ section.especialidades .flex{
 }
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: rgb(73, 57, 177);
+    color: blueviolet;
 }
 .especialidades .especialidades-box h3{
     font-size: 28px;
@@ -152,7 +154,7 @@ section.sobre .flex{
     margin-bottom: 30px;
 }
 .sobre .texto-sobre h2 span{
-    color: rgb(73, 57, 177);
+    color: blueviolet;
     display: block;
 }
 .sobre .texto-sobre p{
@@ -174,7 +176,8 @@ section.sobre .flex{
 
 section.portfolio{
     padding: 80px 4%;
-    box-shadow: 0 0 20px 2px rgb(31, 20, 102);
+    box-shadow: 0 0 40px 10px rgb(26, 17, 83);
+    background: linear-gradient(rgb(26, 17, 80), black)
 }
 section.portfolio .flex{
     gap: 80px;
@@ -218,6 +221,7 @@ section.portfolio .flex{
 /*estiolo formulario*/
 section.formulario{
     padding: 80px 4%;
+    background-color: black;
 }
 
 form{
@@ -257,7 +261,8 @@ form .btn-envio input{
 /*estiolo rodape*/
 footer{
     padding: 60px 4%;
-    box-shadow: 0 0 40px 10px rgb(31, 20, 102);
+    box-shadow: 0 0 20px 10px rgb(31, 20, 102);
+    background-color: black;
 }
 footer .flex{
     justify-content: space-between;
