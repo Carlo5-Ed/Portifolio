@@ -264,7 +264,7 @@ form .btn-envio input{
 /*estiolo rodape*/
 footer{
     padding: 60px 4%;
-    box-shadow: 0 0 20px 10px rgb(31, 20, 102);
+    box-shadow: 0 0 10px 5px rgb(31, 20, 102);
     background-color: black;
 }
 footer .flex{
